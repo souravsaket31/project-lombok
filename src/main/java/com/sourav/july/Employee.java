@@ -9,11 +9,11 @@ import lombok.Data;
 @Builder
 @Data
 @AllArgsConstructor
-
 public class Employee {
 
 	private Integer empId;
 	private String empName;
 	private Double empSal;
+	private String designation;
 
 }
