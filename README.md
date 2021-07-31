@@ -11,6 +11,8 @@ automate your logging variables, and much more.
 
 1. Create a Maven Project 
 2. Add the following Maven dependency in pom.xml
+
+```java
 <dependencies>
         <dependency>
                <groupId>org.projectlombok</groupId>
@@ -18,6 +20,7 @@ automate your logging variables, and much more.
                <version>1.16.16</version>
         </dependency>
 </dependencies>
+```
 
 3. Create a Simple class Employee with some sample data variables
 4. After building the project, you will find lombok.jar downloaded in the .m2 repository.
