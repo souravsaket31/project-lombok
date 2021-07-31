@@ -23,6 +23,7 @@ automate your logging variables, and much more.
 4. After building the project, you will find lombok.jar downloaded in the .m2 repository.
 5. Example (Vanilla code) :
 
+```java
 public class Employee {
 
 private String empId;
@@ -54,8 +55,12 @@ this.lastname = lastname;
 }
 
 }
+```
+
 
 6. Code with Lombok annotations:
+
+```java
 
 @Getter
 @Setter
@@ -67,3 +72,4 @@ public class Employee {
  private String lastname;
  
  }
+```
